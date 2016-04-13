@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express@4.14.2' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json web-server@1.0.0 No description
+5 warn package.json web-server@1.0.0 No repository field.
+6 warn package.json web-server@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express@4.14.2', null ]
+9 verbose cache add name=undefined spec="express@4.14.2" args=["express@4.14.2",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express@4.14.2',
+10 verbose parsed url   path: 'express@4.14.2',
+10 verbose parsed url   href: 'express@4.14.2' }
+11 verbose cache add name="express" spec="4.14.2" args=["express","4.14.2"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '4.14.2',
+12 verbose parsed url   path: '4.14.2',
+12 verbose parsed url   href: '4.14.2' }
+13 verbose addNamed [ 'express', '4.14.2' ]
+14 verbose addNamed [ '4.14.2', '4.14.2' ]
+15 silly lockFile 3e50a79d-express-4-14-2 express@4.14.2
+16 verbose lock express@4.14.2 /home/max/.npm/3e50a79d-express-4-14-2.lock
+17 verbose request where is /express
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id c1d8bbc35b4bd4cd
+20 verbose url raw /express
+21 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+22 verbose url resolved https://registry.npmjs.org/express
+23 verbose request where is https://registry.npmjs.org/express
+24 info trying registry request attempt 1 at 17:48:04
+25 http GET https://registry.npmjs.org/express
+26 http 200 https://registry.npmjs.org/express
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"F5JO6Q2V0Z3PAZIMIYIY1JJ7S"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'content-length': '536018',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Wed, 13 Apr 2016 21:48:05 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '288',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-atl6246-ATL',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '5',
+27 silly registry.get     'x-timer': 'S1460584085.132355,VS0,VE0',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 silly lockFile 3e50a79d-express-4-14-2 express@4.14.2
+29 silly lockFile 3e50a79d-express-4-14-2 express@4.14.2
+30 error Error: version not found: express@4.14.2
+30 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:125:12
+30 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+30 error     at Object.oncomplete (fs.js:107:15)
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Linux 3.19.0-58-generic
+33 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "express@4.14.2"
+34 error cwd /home/max/Documents/node-course/web-server
+35 error node -v v0.10.32
+36 error npm -v 1.4.28
+37 verbose exit [ 1, true ]
